@@ -10,5 +10,4 @@ here is screenshot of it:
 
 <img src = "https://github.com/sonush04/TIC_TAC_TOE/blob/master/2020-07-13%20(2).png">
 
-check it out here:
-http://htmlpreview.github.com/?https://github.com/sonush04/TIC_TAC_TOE/blob/master/tictaktoe.html
+

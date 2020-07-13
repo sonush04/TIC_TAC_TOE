@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body >
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">TIC-TAC-TOE</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-4 container2">
+          <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+          <div class="card-header" id = "pname1">Player 1</div>
+          <div class="card-body">
+          <h5 class="card-title">Your mark is 'X'</h5>
+          <p class="card-text" id = "p1"></p>
+          <h4 id = "w1"></h4>
+          </div>
+        </div>
+        </div>
+        <div class="container1 col-4" >
+          <table id = "mytable">
+            <tr>
+              <td id = "one"></td>
+              <td id = "two"></td>
+              <td id="three"></td>
+            </tr>
+            <tr>
+              <td id="four"></td>
+              <td id="five"></td>
+              <td id="six"></td>
+            </tr>
+            <tr>
+              <td id= "seven"></td>
+              <td id = "eight"></td>
+              <td id = "nine"></td>
+            </tr>
+          </table>
+          <div class="btncls">
+              <button type="button" class="btn btn-secondary btn-lg" id="btn">New Game</button>
+          </div>
+        </div>
+        <div class="col-4 container2">
+          <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+          <div class="card-header" id="pname2">Player 2</div>
+          <div class="card-body">
+            <h5 class="card-title">Your mark is 'O'</h5>
+            <p class="card-text" id = "p2"></p>
+            <h4 id = "w2"></h4>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
